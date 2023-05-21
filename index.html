@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>포트폴리오</title>
+    <title>Portfolio</title>
     <script src="https://code.jquery.com/jquery-3.7.0.js" integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
     <script src="/public/js/slider.js"></script>
     <link rel="stylesheet" href="/public/css/style.css" />
@@ -41,11 +41,17 @@
             </div>
 
             <div class="picture">
-                <img class="front-image" src="/public/images/공병_전신.png" >
-                <img class="front-image" src="/public/images/공병-backandfront.png" 
-                style="width: 38rem;">
-                <img class="front-image" src="/public/images/공병-detail.png">
-                <img class="back-image" src="/public/images/공병_전신_흑백.png" >
+                <div class="grid-group">
+                    <img class="front-image" src="/public/images/공병_전신.png"
+                    style="width: auto; flex:1;">
+                    <div class="grid-right">
+                        <div class="bg-grid" style="background-image: url('/public/images/공병-backandfront.png');"></div>
+                        <div class="bg-grid" style="background-image: url('/public/images/공병-detail.png');"></div>
+                    </div>
+                </div>
+                <img class="back-image" src="/public/images/공병_전신_흑백.png"
+                style="margin-left:-45vw; margin-top:37vh;"
+                >
             </div>
             <div class="picture">
                 <img class="front-image" src="/public/images/강령술사.png"
@@ -54,7 +60,9 @@
             </div>
             <div class="picture">
                 <img class="front-image" src="/public/images/창술사.png">
-                <img class="back-image" src="/public/images/창술사_흑백.png">
+                <img class="back-image" src="/public/images/창술사_흑백.png"
+                style="margin-left:-47vw; margin-top:44vh;"
+                >
             </div>
         </div>
 

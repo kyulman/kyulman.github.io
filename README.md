@@ -1,2 +1,0 @@
-# kyulman.github.io
-homepage

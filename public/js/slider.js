@@ -35,6 +35,10 @@ $(function(){
         slider.next()
     })
 
+    // setInterval(function(){
+    //     slider.next()
+    // },10000)
+
     $('.slider').on('mouseover',function(){
         $('.arrow').addClass('active')
     })

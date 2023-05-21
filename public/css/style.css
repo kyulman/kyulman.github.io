@@ -6,6 +6,20 @@ body,html{
     display: flex;
     flex-direction: column;
 }
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+.copyright{
+    position: absolute;
+    z-index: 999;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    bottom: 0.5rem;
+    text-align: center;
+    font-size: .8rem;
+    color: #555;
+}
 .slider{
     flex: 1;
     background: rgb(255,255,255);
